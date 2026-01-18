@@ -32,7 +32,8 @@ dependencies:
   - xz-gpl-tools=5.8.2=ha02ee65_0
   - xz-tools=5.8.2=hb03c661_0
   - zstd=1.5.7=hb78ec9c_6
+  - pip:
+      - pandas==1.5.0
+      - mlflow==1.29.0
 prefix: /opt/conda/envs/exploratory
-- pip:
-    - pandas==1.5.0
-    - mlflow==1.29.0
+  

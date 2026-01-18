@@ -1,0 +1,7 @@
+name: wine-exploration
+
+conda_env: conda_env.yml
+
+entry_points:
+  main:
+    command: "python exploratory.py"
